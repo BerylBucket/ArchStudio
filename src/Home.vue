@@ -21,7 +21,6 @@
     name: "Home",
     components: {
       Ln, Sect
-    },
-    el: "#app"
+    }
   }
 </script>
