@@ -15,8 +15,8 @@
 </template>
 
 <script>
-  import ln from "./components/ln.vue";
-  import sect from "./components/sect.vue";
+  import ln from "./components/ln";
+  import sect from "./components/sect";
   export default {
     name: "Home",
     components: {
