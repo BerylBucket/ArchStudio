@@ -22,7 +22,7 @@
   export default {
     name: "Home",
     components: {
-      Ln, Sect
+      Ln, Sect, Foot
     }
   }
 </script>
