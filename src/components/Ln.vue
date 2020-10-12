@@ -1,5 +1,6 @@
 <template>
   <div class="line"></div>
+  just test text
 </template>
 
 <script>
