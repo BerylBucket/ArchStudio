@@ -8,6 +8,7 @@
       </div>
       <h2><slot name="heading"></slot></h2>
      <slot name="body"></slot>
+     {{img}}
     </div>
     <div :style="'background-image: url(' + this.img + ')'" class="image"></div>
   </div>
@@ -29,11 +30,11 @@ export default {
 
 <style scoped>
   .sect {
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
-  grid-gap: 1.5rem;
-}
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+    grid-gap: 1.5rem;
+  }
 @media screen and (min-width: 1024px) {
   .sect {
     padding: 5rem;
