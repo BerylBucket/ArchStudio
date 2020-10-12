@@ -8,7 +8,6 @@
       </div>
       <h2><slot name="heading"></slot></h2>
      <slot name="body"></slot>
-     {{img}}
     </div>
     <div :style="'background-image: url(' + this.img + ')'" class="image"></div>
   </div>
