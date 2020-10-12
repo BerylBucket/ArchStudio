@@ -1,7 +1,7 @@
 <template>
   <div>
    <Ln></Ln>
-   <Sect img="https://raw.githubusercontent.com/zuolizhu/arch_studio_frontendmentor/master/static/home/desktop/image-welcome.jpg">
+   <Sect img="./assets/welcome.JPG">
       <template v-slot:heading>
          Welcome to Arch Studio
       </template>
