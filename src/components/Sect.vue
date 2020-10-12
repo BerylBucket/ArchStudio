@@ -1,16 +1,16 @@
 <template>
-<div class="sect">
-  <div class="body">
-    <h1>Welcome</h1>
-    <div class="spacer"></div>
-    <div class="lineWrap">
-      <Ln></Ln>
+  <div class="sect">
+    <div class="body">
+      <h1>Welcome</h1>
+      <div class="spacer"></div>
+      <div class="lineWrap">
+        <Ln></Ln>
+      </div>
+      <h2><slot name="heading"></slot></h2>
+     <slot name="body"></slot>
     </div>
-<h2><slot name="heading"></slot></h2>
-<slot name="body"></slot>
-</div>
-  <div :style="'background-image: url(' + this.img + ')'" class="image"></div>
-</div>
+    <div :style="'background-image: url(' + this.img + ')'" class="image"></div>
+  </div>
 </template>
 
 <script>
