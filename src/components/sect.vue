@@ -14,10 +14,13 @@
 </template>
 
 <script>
-import ln from "./ln";
+import ln from "./ln.vue";
 
 export default {
   name: "sect",
+  components: {
+    ln
+  },
   props: {
     img: String
   }
