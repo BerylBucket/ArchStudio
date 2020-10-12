@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import ln from "./ln"
+import ln from "./ln";
 
 export default {
   name: "sect",
