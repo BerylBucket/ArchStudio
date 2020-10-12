@@ -11,6 +11,7 @@
         <p>We work closely with our clients so that we understand the intricacies of each project. This allows us to work in harmony the surrounding area to create truly stunning projects that will stand the test of time.</p>
       </template>
     </Sect>
+    <Foot></Foot>
   </div>
 </template>
 
