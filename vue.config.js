@@ -6,7 +6,8 @@ module.exports = {
       // the source template
       template: 'public/index.html',
       // output as dist/index.html
-      filename: 'index.html'
+      filename: 'index.html',
+      title: "Home"
     }
-    }
+  }
 }
