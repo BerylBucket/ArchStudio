@@ -11,7 +11,7 @@
 
 <script>
   export default {
-   name: "carousel"
+   name: "Carousel"
 }
 </script>
 
