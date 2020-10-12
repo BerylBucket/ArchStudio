@@ -14,10 +14,9 @@
 </template>
 
 <script>
-import Ln from "./Ln";
+import Ln from "./Ln.vue";
 
 export default {
-  name: "Sect",
   components: {
     Ln
   },
