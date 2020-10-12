@@ -1,14 +1,14 @@
 <template>
-  <div class="featImg"><portimg :imgurl="img"><template v-slot:name><slot></slot></template><template v-slot:date><a>View All Projects</a></template></portimg><div class="num">{{num}}</div></div>
+  <div class="featImg"><PortImg :imgurl="img"><template v-slot:name><slot></slot></template><template v-slot:date><a>View All Projects</a></template></PortImg><div class="num">{{num}}</div></div>
 </template>
 
 <script>
-  import portimg from "./portimg.vue";
+  import PortImg from "./PortImg";
   
   export default {
-    name: "featimg",
+    name: "FeatImg",
     components: {
-      portimg
+      PortImg
     },
     props: {
       img: String,
