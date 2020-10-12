@@ -19,9 +19,9 @@
   //import Sect from "./components/Sect";
   export default {
     name: "Home",
-    el: "#app",
     components: {
       Ln
-    }
+    },
+    el: "#app"
   }
 </script>
