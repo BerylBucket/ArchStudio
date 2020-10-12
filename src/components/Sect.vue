@@ -10,7 +10,7 @@
      <slot name="body"></slot>
      {{img}}
     </div>
-    <div :style="'background-image: url(' + this.img + ')'" class="image"></div>
+    <div :style="'background-image: url(.' + this.img + ')'" class="image"></div>
   </div>
 </template>
 
