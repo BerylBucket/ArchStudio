@@ -17,7 +17,7 @@
 import Ln from "./Ln";
 
 export default {
-  name: "sect",
+  name: "Sect",
   components: {
     Ln
   },
