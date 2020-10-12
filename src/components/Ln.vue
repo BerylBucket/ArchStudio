@@ -1,6 +1,8 @@
 <template>
-  <div class="line"></div>
-  just test text
+  <div>
+    <div class="line"></div>
+    just test text
+</div>
 </template>
 
 <script>
