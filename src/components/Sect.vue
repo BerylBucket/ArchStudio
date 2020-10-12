@@ -17,6 +17,7 @@
 import Ln from "./Ln.vue";
 
 export default {
+  name: "Ln",
   components: {
     Ln
   },
