@@ -1,7 +1,7 @@
 <template>
   <div>
    <Ln></Ln>
-   <Sect img="./assets/welcome.JPG">
+   <!--<Sect img="./assets/welcome.JPG">
       <template v-slot:heading>
          Welcome to Arch Studio
       </template>
@@ -10,18 +10,17 @@
         <p>Over the past 10 years, we have worked on all kinds of projects. From stations to high-rise buildings, we create spaces that inspire and delight.</p>
         <p>We work closely with our clients so that we understand the intricacies of each project. This allows us to work in harmony the surrounding area to create truly stunning projects that will stand the test of time.</p>
       </template>
-    </Sect>
+    </Sect>-->
   </div>
 </template>
 
 <script>
   import Ln from "./components/Ln";
-  import Sect from "./components/Sect";
+  //import Sect from "./components/Sect";
   export default {
     name: "Home",
     components: {
-      'Ln': Ln,
-      'Sect': Sect
+      Ln
     }
   }
 </script>
