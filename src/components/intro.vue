@@ -13,8 +13,12 @@
 </template>
 
 <script>
+  import Ln from "./Ln";
   export default {
-    name: "intro"
+    name: "Intro",
+    components: {
+      Ln
+    }
   }
 </script>
 
