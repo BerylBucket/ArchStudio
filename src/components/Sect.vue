@@ -4,22 +4,22 @@
     <h1>Welcome</h1>
     <div class="spacer"></div>
     <div class="lineWrap">
-      <ln></ln>
+      <Ln></Ln>
     </div>
 <h2><slot name="heading"></slot></h2>
 <slot name="body"></slot>
 </div>
-  <div :style="'background-image: url(' + this.img + ')'" class="image"> </div>
+  <div :style="'background-image: url(' + this.img + ')'" class="image"></div>
 </div>
 </template>
 
 <script>
-import ln from "./ln.vue";
+import Ln from "./Ln";
 
 export default {
   name: "sect",
   components: {
-    ln
+    Ln
   },
   props: {
     img: String
