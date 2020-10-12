@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    name: "portimg",
+    name: "PortImg",
     props: {
       img: String
     }
