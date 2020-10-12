@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import portimg from ./portimg.vue;
+  import portimg from "./portimg.vue";
   
   export default {
     name: "featimg",
