@@ -3,8 +3,13 @@
 </template>
 
 <script>
+  import portimg from ./portimg.vue;
+  
   export default {
     name: "featimg",
+    components: {
+      portimg
+    },
     props: {
       img: String,
       num: String
