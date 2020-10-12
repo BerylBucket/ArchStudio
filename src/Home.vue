@@ -15,6 +15,7 @@ Welcome to Arch Studio
 
 <script>
   import ln from "./components/ln.vue";
+  import sect from "./components/sect.vue";
   export default {
     name: "Home",
     components: {
