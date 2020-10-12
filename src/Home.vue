@@ -1,6 +1,6 @@
 <template>
   <div>
-   <Ln></Ln>
+    <Carousel></Carousel>
     <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/welcome.JPG">
       <template v-slot:heading>
          Welcome to Arch Studio
@@ -17,12 +17,13 @@
 
 <script>
   import Ln from "./components/Ln";
+  import Carousel from "./components/Carousel";
   import Sect from "./components/Sect";
   import Foot from "./components/Foot";
   export default {
     name: "Home",
     components: {
-      Ln, Sect, Foot
+      Ln, Sect, Foot, Carousel
     }
   }
 </script>
