@@ -1,7 +1,7 @@
 <template>
   <div>
-   <ln></ln>
-   <sect img="https://raw.githubusercontent.com/zuolizhu/arch_studio_frontendmentor/master/static/home/desktop/image-welcome.jpg">
+   <Ln></Ln>
+   <Sect img="https://raw.githubusercontent.com/zuolizhu/arch_studio_frontendmentor/master/static/home/desktop/image-welcome.jpg">
       <template v-slot:heading>
          Welcome to Arch Studio
       </template>
@@ -10,18 +10,18 @@
         <p>Over the past 10 years, we have worked on all kinds of projects. From stations to high-rise buildings, we create spaces that inspire and delight.</p>
         <p>We work closely with our clients so that we understand the intricacies of each project. This allows us to work in harmony the surrounding area to create truly stunning projects that will stand the test of time.</p>
       </template>
-    </sect>
+    </Sect>
   </div>
 </template>
 
 <script>
-  import ln from "./components/ln";
-  import sect from "./components/sect";
+  import Ln from "./components/Ln";
+  import Sect from "./components/Sect";
   export default {
     name: "Home",
     components: {
-      'ln': ln,
-      'sect': sect
+      'Ln': Ln,
+      'Sect': Sect
     }
   }
 </script>
