@@ -14,9 +14,9 @@
     <section id="featured">
     <h3>Featured</h3>
     <div id="featImgs">
-      <featimg img="https://i.ibb.co/HKTjKck/FA26-FC69-1523-4-E38-97-EA-47-C218-EE375-B.jpg" num="1">Project Del Sol</featimg>
-      <featimg img="https://i.ibb.co/7gT2J5b/D4-A03-BE9-175-E-47-BF-89-E2-6-F80-A9-A26407.jpg" num="2">228B Tower</featimg>
-      <featimg img="https://i.ibb.co/T08S8tp/49-D8-D034-211-C-4-DE4-AD62-FCB6-D596-CE0-E.jpg" num="3">Le Prototype</featimg>
+      <FeatImg img="https://i.ibb.co/HKTjKck/FA26-FC69-1523-4-E38-97-EA-47-C218-EE375-B.jpg" num="1">Project Del Sol</FeatImg>
+      <FeatImg img="https://i.ibb.co/7gT2J5b/D4-A03-BE9-175-E-47-BF-89-E2-6-F80-A9-A26407.jpg" num="2">228B Tower</FeatImg>
+      <FeatImg img="https://i.ibb.co/T08S8tp/49-D8-D034-211-C-4-DE4-AD62-FCB6-D596-CE0-E.jpg" num="3">Le Prototype</FeatImg>
     </div>
   </section>
     <Foot></Foot>
