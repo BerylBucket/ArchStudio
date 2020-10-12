@@ -16,11 +16,11 @@
 
 <script>
   import Ln from "./components/Ln";
-  //import Sect from "./components/Sect";
+  import Sect from "./components/Sect";
   export default {
     name: "Home",
     components: {
-      Ln
+      Ln, Sect
     },
     el: "#app"
   }
