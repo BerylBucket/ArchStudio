@@ -18,6 +18,7 @@
 <script>
   import Ln from "./components/Ln";
   import Sect from "./components/Sect";
+  import Foot from "./components/Foot";
   export default {
     name: "Home",
     components: {
