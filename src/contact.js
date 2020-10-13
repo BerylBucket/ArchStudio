@@ -1,8 +1,8 @@
 import Vue from "vue";
-import Contact from "./Contact";
+import Ho from "./Ho";
 
 Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(Contact)
+  render: h => h(Ho)
 }).$mount("#app");
