@@ -35,15 +35,16 @@
 </style>
 
 <script>
-  import Ln from "./components/Ln";
+  import Navbar from "./components/Navbar";
   import Carousel from "./components/Carousel";
   import Sect from "./components/Sect";
   import FeatImg from "./components/img/FeatImg";
   import Foot from "./components/Foot";
+  
   export default {
     name: "Home",
     components: {
-      Ln, Sect, Foot, Carousel, FeatImg
+      Navbar, Sect, Foot, Carousel, FeatImg
     }
   }
 </script>
