@@ -43,7 +43,7 @@
   import Foot from "./components/Foot";
   
   export default {
-    name: "Home",
+    name: "Ho",
     components: {
       Navbar, Sect, Foot, Carousel, FeatImg
     }
