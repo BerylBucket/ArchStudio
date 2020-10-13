@@ -37,12 +37,35 @@
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script>
+      var map = L.map("map").setView([34.3, -90], 5);
+      var mapboxTkn =
+      "pk.eyJ1IjoiYmVyeWxidWNrZXQiLCJhIjoiY2tnMGN5bnpzMDVvdDJ5bzRzYWNycGFwdCJ9.qL7LzKJLPi_1VA_Hh9dEpQ";
+      L.tileLayer(
+        "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
+        {
+          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+          maxZoom: 18,
+          id: "mapbox/streets-v11",
+          tileSize: 512,
+          zoomOffset: -1,
+          accessToken: mapboxTkn
+        }
+      ).addTo(map);
+      var myIcon = L.icon({
+        iconUrl: "https://raw.githubusercontent.com/zuolizhu/arch_studio_frontendmentor/master/static/icons/icon-location.svg",
+        iconSize: [38, 95],
+        iconAnchor: [22, 94],
+        popupAnchor: [-3, -76]
+      });
+      var off1 = L.marker([35.133276, -85.717512], { icon: myIcon }).addTo(map);
+      var off2 = L.marker([31.998111, -94.7753252], { icon: myIcon }).addTo(map);
+    </script>
   </head>
   <body>
     <noscript>
       <strong>We're sorry, but this website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-
   </body>
 </html>
