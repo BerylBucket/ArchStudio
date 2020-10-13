@@ -108,4 +108,8 @@
   #contactForm {
     padding: 0 3rem;
   }
+  
+  #map {
+    height: 320px;
+  }
 </style>
