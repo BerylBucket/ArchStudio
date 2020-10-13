@@ -8,6 +8,12 @@ module.exports = {
       // output as dist/index.html
       filename: 'index.html',
       title: "Home"
+    },
+    contact: {
+      entry: 'src/contact.js',
+      template: 'public/index.html',
+      filename: 'contact.html',
+      title: "Contact"
     }
   }
 }
