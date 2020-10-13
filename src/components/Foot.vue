@@ -15,7 +15,7 @@
   .footer .btn {display:flex;font-weight: 700;position: absolute;right: 0;bottom: calc(50% - 26px);background: #222;color: #f7f7f7;padding: 16px;}
   @media (max-width: 700px) {
   .footer {height: 420px;text-align: center;background: linear-gradient(to bottom, transparent 60px, #eee 60px);}
-  .footer .logo {display: inline-block;margin: 0 auto 30px auto;transform:translateX(20%);}
+  .footer .logo {display: inline-block;margin: 0 auto 30px auto;}
   .footer .link {background: #eee;float: none;display: block;color: #777;width: 100%;}
   .footer .btn {display: inline-block; position: relative;margin-top: 12px;}
   .footer .btn svg{transform: translateY(3px);}
