@@ -7,5 +7,5 @@
 </script>
 
 <style scoped>
-  .conInfo h3{color: #60636D;}.conInfo table{margin: 1rem 0;color: #60636D;}.conInfo th, .conInfo td {font-weight: 500;text-align: left;height:40px;}.conInfo .mapBtn{display: flex;font-weight: 700;}.conInfo .mapBtn svg{ margin-left: 1rem;}
+  .conInfo h3{color: #60636D;}.conInfo table{margin: 1rem 0;color: #60636D;}.conInfo th, .conInfo td {font-weight: 500;text-align: left;height:60px;}.conInfo .mapBtn{display: flex;font-weight: 700;}.conInfo .mapBtn svg{ margin-left: 1rem;}
 </style>
