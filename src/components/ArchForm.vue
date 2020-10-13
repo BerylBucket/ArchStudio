@@ -7,5 +7,5 @@
 </script>
 
 <style scoped>
-  .archform{margin-top: 3rem; margin-bottom: 70px;}.archform input, .archform textarea{border:0;border-radius:0;border-bottom: #333 solid 2px;font-size: 1.5rem;font-weight: 700;display: block;line-height: normal;padding: 0.2rem;outline: none;margin-bottom: 3.5rem;width:100%;}.archform input{height: 3.2rem;}.archform textarea{ height: 6rem;margin:0;}.archform *::placeholder {line-height: normal;padding-left: 1rem;}.archform textarea::placeholder{ padding-top: .5rem;}.archform .subBtn{float:right;background: #1b1d23;display: flex;width: 5rem;height: 5rem;align-items:center;justify-content:center;}
+  .archform{margin-top: 3rem; margin-bottom: 140px;}.archform input, .archform textarea{border:0;border-radius:0;border-bottom: #333 solid 2px;font-size: 1.5rem;font-weight: 700;display: block;line-height: normal;padding: 0.2rem;outline: none;margin-bottom: 3.5rem;width:100%;}.archform input{height: 3.2rem;}.archform textarea{ height: 6rem;margin:0;}.archform *::placeholder {line-height: normal;padding-left: 1rem;}.archform textarea::placeholder{ padding-top: .5rem;}.archform .subBtn{float:right;background: #1b1d23;display: flex;width: 5rem;height: 5rem;align-items:center;justify-content:center;}
 </style>
