@@ -5,6 +5,9 @@
 <script>
   export default {
     name: "Navbar",
+    props: {
+      active: String
+    },
     data(){
       return {
         showMenu: false
