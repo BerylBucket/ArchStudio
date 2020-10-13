@@ -40,6 +40,9 @@
 </template>
 
 <script>
+  import "leaflet/dist/leaflet.css";
+  import L from "leaflet";
+
   import Navbar from "./components/Navbar";
   import Intro from "./components/Intro";
   import Ln from "./components/Ln";
@@ -57,25 +60,24 @@
     methods: {
       initMap(){
         var map = L.map("map").setView([34.3, -90], 5);
-      var mapboxTkn = "pk.eyJ1IjoiYmVyeWxidWNrZXQiLCJhIjoiY2tnMGN5bnpzMDVvdDJ5bzRzYWNycGFwdCJ9.qL7LzKJLPi_1VA_Hh9dEpQ";
-      L.tileLayer(
-        "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
-        {
-          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-          maxZoom: 18,
-          id: "mapbox/streets-v11",
-          tileSize: 512,
-          zoomOffset: -1,
-          accessToken: mapboxTkn
-        }).addTo(map);
-      var myIcon = L.icon({
-        iconUrl: "https://raw.githubusercontent.com/zuolizhu/arch_studio_frontendmentor/master/static/icons/icon-location.svg",
-        iconSize: [38, 95],
-        iconAnchor: [22, 94],
-        popupAnchor: [-3, -76]
-      });
-      var off1 = L.marker([35.133276, -85.717512], { icon: myIcon }).addTo(map);
-      var off2 = L.marker([31.998111, -94.7753252], { icon: myIcon }).addTo(map);
+        var mapboxTkn = "pk.eyJ1IjoiYmVyeWxidWNrZXQiLCJhIjoiY2tnMGN5bnpzMDVvdDJ5bzRzYWNycGFwdCJ9.qL7LzKJLPi_1VA_Hh9dEpQ";
+        L.tileLayer(
+          "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: "mapbox/streets-v11",
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: mapboxTkn
+          }).addTo(map);
+        var myIcon = L.icon({
+          iconUrl: "https://raw.githubusercontent.com/zuolizhu/arch_studio_frontendmentor/master/static/icons/icon-location.svg",
+          iconSize: [38, 95],
+          iconAnchor: [22, 94],
+          popupAnchor: [-3, -76]
+        });
+        var off1 = L.marker([35.133276, -85.717512], { icon: myIcon }).addTo(map);
+        var off2 = L.marker([31.998111, -94.7753252], { icon: myIcon }).addTo(map);
       }
     }
   }
