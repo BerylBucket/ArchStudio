@@ -1,7 +1,7 @@
 <template>
   <div class="sect">
     <div class="body">
-      <h1>Welcome</h1>
+      <h1><slot name="title"></slot></h1>
       <div class="spacer"></div>
       <div class="lineWrap">
         <Ln></Ln>
