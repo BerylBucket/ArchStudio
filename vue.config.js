@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: "/ArchStudio/",
   pages: {
     index: {
       // entry for the page
