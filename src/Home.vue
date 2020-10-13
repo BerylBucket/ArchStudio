@@ -92,7 +92,7 @@
   }
   #conInfo {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-gap: 3rem;
     margin-top: 2rem;
   }
@@ -110,6 +110,6 @@
   }
   
   #map {
-    height: 320px;
+    height: 380px;
   }
 </style>
