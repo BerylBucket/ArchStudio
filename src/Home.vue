@@ -1,7 +1,5 @@
 <template>
   <div>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <Navbar active="3"></Navbar>
     <Intro>
       <template v-slot:title>Contact</template>
@@ -9,31 +7,34 @@
       <template v-slot:body>We’d love to hear more about your project. Please, leave a message below or give us a call. We have two offices, one in Texas and one in Tennessee. If you find yourself nearby, come say hello!</template>
     </Intro>
     <section id="conDet">
-    <Ln></Ln>
-    <h2>Contact Details</h2>
-    <div id="conInfo">
-      <OfficeInfo>
-        <template v-slot:office>Main Office</template>
-        <template v-slot:email>archone@mail.com</template>
-        <template v-slot:address>1892 Chenoweth Drive TN</template>
-        <template v-slot:phone>123-456-3451</template>
-      </OfficeInfo>
-      <OfficeInfo>
-        <template v-slot:office>Office II</template>
-        <template v-slot:email>archtwo@mail.com</template>
-        <template v-slot:address>
-          3399 Wines Lane TX</template>
-        <template v-slot:phone>
-          832-123-4321</template>
-      </OfficeInfo>
-    </div>
-  </section>
+      <Ln></Ln>
+      <h2>Contact Details</h2>
+      <div id="conInfo">
+        <OfficeInfo>
+          <template v-slot:office>Main Office</template>
+          <template v-slot:email>archone@mail.com</template>
+          <template v-slot:address>1892 Chenoweth Drive TN</template>
+          <template v-slot:phone>123-456-3451</template>
+        </OfficeInfo>
+        <OfficeInfo>
+          <template v-slot:office>Office II</template>
+          <template v-slot:email>archtwo@mail.com</template>
+          <template v-slot:address>
+            3399 Wines Lane TX</template>
+          <template v-slot:phone>
+            832-123-4321</template>
+        </OfficeInfo>
+      </div>
+    </section>
+    <section>
+      <div id="map"></div>
+    </section>
     <section id="contactForm">
-    <h2>Connect with us</h2>
-    <ArchForm>
-      <input placeholder="Name"></input><input placeholder="Email"></input><textarea placeholder="Message"></textarea>
-    </ArchForm>
-  </section>
+      <h2>Connect with us</h2>
+      <ArchForm>
+        <input placeholder="Name"></input><input placeholder="Email"></input><textarea placeholder="Message"></textarea>
+      </ArchForm>
+    </section>
     <Foot></Foot>
   </div>
 </template>
@@ -55,20 +56,20 @@
 
 <style scoped>
   *{
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
   h2 {
-  font-size: 2.5rem;
-}
-#conInfo {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 3rem;
-  margin-top: 2rem;
-}
-#conInfo div {
-  display: inline-block;
-}
+    font-size: 2.5rem;
+  }
+  #conInfo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 3rem;
+    margin-top: 2rem;
+  }
+  #conInfo div {
+    display: inline-block;
+  }
   section:not(:first-of-type) {
     margin-top: 8rem;
   }
