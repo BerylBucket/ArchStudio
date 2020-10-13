@@ -3,6 +3,9 @@
     <Navbar></Navbar>
     <Carousel></Carousel>
     <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/welcome.JPG">
+      <template v-slot:title>
+         Welcome
+      </template>
       <template v-slot:heading>
          Welcome to Arch Studio
       </template>
