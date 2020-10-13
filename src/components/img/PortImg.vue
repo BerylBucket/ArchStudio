@@ -7,6 +7,11 @@
     name: "PortImg",
     props: {
       img: String
+    },
+    data() {
+      return {
+        imgStyle: "background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(" + this.imgurl + ");background-repeat: no-repeat;background-position:center;"
+      };
     }
   }
 </script>
