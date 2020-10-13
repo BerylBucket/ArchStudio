@@ -9,7 +9,7 @@
 </script>
 
 <style scoped>
-  .footer {background: linear-gradient(to left, transparent 100px, #eee 100px);height: 120px;color: #777;position: relative; margin-top:50px;}
+  .footer {background: linear-gradient(to left, transparent 100px, #eee 100px);height: 120px;color: #777;position: relative; margin-top:80px;}
   .footer .logo { display: inline-block; font-weight: 900;font-size: 36px;letter-spacing: -0.15em; background: #222; color: #f7f7f7; width: 120px;height: 120px;line-height: 120px;text-align: center;}
   .footer .link {display: inline-block;transform: translateY(-8px); padding: 18px 20px; text-decoration: none;}
   .footer .btn {display:flex;font-weight: 700;position: absolute;right: 0;bottom: calc(50% - 26px);background: #222;color: #f7f7f7;padding: 16px;}
