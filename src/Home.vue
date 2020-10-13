@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Navbar></Navbar>
     <Carousel></Carousel>
     <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/welcome.JPG">
       <template v-slot:heading>
