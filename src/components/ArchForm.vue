@@ -23,7 +23,7 @@ export default {};
 .archform textarea {
   border: 0;
   border-radius: 0;
-  border-bottom: #333 solid 2px;
+  border-bottom: #60636D solid 2px;
   font-size: 1.5rem;
   font-weight: 700;
   display: block;
