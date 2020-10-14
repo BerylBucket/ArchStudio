@@ -6,7 +6,7 @@
 professionals</template>
     <template v-slot:body>Our small team of world-class professionals will work with you every step of the way. Strong relationships are at the core of everything we do. This extends to the relationship our projects have with their surroundings.</template>
   </Intro>-->
-  <section id="heritage">
+  <!--<section id="heritage">
     <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/about/heritage.JPG" :showtitle="false">
       <template v-slot:title></template>
       <template v-slot:heading>Our Heritage</template>
@@ -16,8 +16,8 @@ professionals</template>
         <p>Our small team of world-class professionals provides input on every project.</p>
       </template>
     </Sect>
-  </section>
-  <section id="ourLeaders">
+  </section>-->
+ <!-- <section id="ourLeaders">
     <h2>The Leaders</h2>
     <div id="leaders">
       <template v-for="x in leaders">
@@ -27,7 +27,7 @@ professionals</template>
         </LeadCard>
       </template>
     </div>
-  </section>
+  </section>-->
   <Foot></Foot>
 </template>
 
@@ -65,8 +65,8 @@ professionals</template>
             name: "Maria Simpson",
             role: "Senior Architect"
           }
-         ]
-        }
+          ]
+       }
      }
   }
 </script>
