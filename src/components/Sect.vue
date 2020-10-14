@@ -2,8 +2,8 @@
   <div class="sect">
     <div class="body">
       <h1><slot name="title"></slot></h1>
-      <div class="spacer"></div>
-      <div class="lineWrap">
+      <div class="spacer" :style="spacerStyle"></div>
+      <div class="lineWrap" :style="lineStyle">
         <Ln></Ln>
       </div>
       <h2><slot name="heading"></slot></h2>
@@ -22,34 +22,50 @@ export default {
     Ln
   },
   props: {
-    img: String
+    img: String,
+    showtitle: Boolean
+  },
+  computed: {
+    spacerStyle(){
+      var style;
+      if (this.showtitle)  {
+        style = '';
+      } else {
+        style = 'display: none';
+      }
+      return style;
+    },
+    lineStyle(){
+      var style;
+      if (this.showtitle) {
+        style = "@media screen and (min-width: 1024px) { .sect .lineWrap {opacity: 0; }}";
+      } else {
+        style = "";
+      }
+      return style;
+    }
   }
 };
 </script>
 
 <style scoped>
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  font-family: Spartan, sans-serif;
-}
-
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Spartan, sans-serif;
+  }
   .sect {
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
     grid-gap: 1.5rem;
   }
-@media screen and (min-width: 1024px) {
-  .sect {
-    padding: 5rem;
+  @media screen and (min-width: 1024px) {
+    .sect {
+      padding: 5rem;
+    }
   }
-  .sect .lineWrap {
-    opacity: 0;
-  }
-}
 @media screen and (max-width: 1023px) {
   .sect .spacer, .sect h1{
     display: none;
