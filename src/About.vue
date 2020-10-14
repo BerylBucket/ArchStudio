@@ -106,7 +106,6 @@ export default {
 }
 p {
   margin-top: 2rem;
-  color: #60636d;
 }
 
 #ourLeaders h2 {
