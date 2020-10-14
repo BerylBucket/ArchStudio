@@ -1,5 +1,5 @@
 <template>
-  <Navbar active="1"></Navbar>
+  <Navbar active="2"></Navbar>
   <Intro>
     <template v-slot:title>About</template>
     <template v-slot:heading>Your team of
