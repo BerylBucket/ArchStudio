@@ -4,5 +4,5 @@ import Home from "./Home";
 Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(Home)
+  render: (h) => h(Home),
 }).$mount("#app");
