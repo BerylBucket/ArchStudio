@@ -45,7 +45,6 @@ export default {
   padding: 3rem 2rem;
   position: relative;
 }
-}
 .carousel p {
   margin-top: 10px;
   font-size: 18px;
