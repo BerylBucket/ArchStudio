@@ -41,7 +41,7 @@ professionals</template>
   export default {
     components: {
       Navbar, Intro, Sect, LeadCard, Foot
-    },
+    }/*,
     data: {
         leaders: [
           {
@@ -65,7 +65,7 @@ professionals</template>
             role: "Senior Architect"
           }
         ]
-     }
+     }*/
   }
 </script>
 
