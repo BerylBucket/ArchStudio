@@ -42,8 +42,7 @@ professionals</template>
     components: {
       Navbar, Intro, Sect, LeadCard, Foot
     },
-    data() {
-      return {
+    data: {
         leaders: [
           {
             img: "https://i.ibb.co/7nGGvxw/CD46-C2-C3-BC39-4097-A03-F-753-CFB6-DA2-C5.jpg",
@@ -65,8 +64,7 @@ professionals</template>
             name: "Maria Simpson",
             role: "Senior Architect"
           }
-          ]
-       }
+        ]
      }
   }
 </script>
