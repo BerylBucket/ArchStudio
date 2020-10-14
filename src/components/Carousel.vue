@@ -45,8 +45,6 @@ export default {
   padding: 3rem 2rem;
   position: relative;
 }
-.carousel h2 {
-  font-size: 2.5rem;
 }
 .carousel p {
   margin-top: 10px;
