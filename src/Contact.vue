@@ -87,9 +87,6 @@
   *{
     font-size: 20px;
   }
-  h2 {
-    font-size: 2.5rem;
-  }
   #conInfo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -108,7 +105,6 @@
   #contactForm {
     padding: 0 3rem;
   }
-  
   #map {
     height: 380px;
   }
