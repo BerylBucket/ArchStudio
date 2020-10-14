@@ -6,24 +6,24 @@
       <Ln></Ln>
       <h2><slot name="heading"></slot></h2>
       <p>
-         <slot name="body"></slot>
-      </p>  
+        <slot name="body"></slot>
+      </p>
     </div>
   </section>
 </template>
 
 <script>
-  import Ln from "./Ln";
-  export default {
-    name: "Intro",
-    components: {
-      Ln
-    }
-  }
+import Ln from "./Ln";
+export default {
+  name: "Intro",
+  components: {
+    Ln,
+  },
+};
 </script>
 
 <style scoped>
-  .intro {
+.intro {
   position: relative;
   width: 100%;
   height: 650px;
@@ -65,8 +65,8 @@
   height: 400px;
 }
 @media screen and (max-width: 1023px) {
-  .intro {    
-    margin:0;
+  .intro {
+    margin: 0;
     padding: 0;
     height: auto;
   }

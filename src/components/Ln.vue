@@ -5,9 +5,13 @@
 </template>
 
 <script>
-  export default { }
+export default {};
 </script>
 
 <style scoped>
-  .line{border-bottom: #ccc solid 1px;width: 6rem; margin-bottom: 4rem;}
+.line {
+  border-bottom: #ccc solid 1px;
+  width: 6rem;
+  margin-bottom: 4rem;
+}
 </style>

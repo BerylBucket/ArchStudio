@@ -1,22 +1,34 @@
 <template>
-<div class="carousel">
-  <div class="slide">
-    <h2>Project Paramour</h2>
-    <p>Project made for an art museum near Southwest London. Project Paramour is a statement of bold, modern architecture.
-    </p>
-    <a>See Our Portfolio <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20"><path d="M15 1l9 9-9 9M0 10h24" fill="none" fill-rule="evenodd" stroke="#f5f5f5" stroke-width="2"/></svg></a>
+  <div class="carousel">
+    <div class="slide">
+      <h2>Project Paramour</h2>
+      <p>
+        Project made for an art museum near Southwest London. Project Paramour
+        is a statement of bold, modern architecture.
+      </p>
+      <a
+        >See Our Portfolio
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20">
+          <path
+            d="M15 1l9 9-9 9M0 10h24"
+            fill="none"
+            fill-rule="evenodd"
+            stroke="#f5f5f5"
+            stroke-width="2"
+          /></svg
+      ></a>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
-  export default {
-   name: "Carousel"
-}
+export default {
+  name: "Carousel",
+};
 </script>
 
 <style scoped>
-  @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .carousel {
     padding: 0 7rem;
   }
