@@ -67,7 +67,8 @@ export default {
     LeadCard,
     Foot,
   },
-  data: {
+  data() {
+    return {
     leaders: [
       {
         img:
@@ -95,6 +96,7 @@ export default {
       },
     ],
   },
+  }
 };
 </script>
 
