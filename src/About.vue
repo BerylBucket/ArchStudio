@@ -92,10 +92,10 @@ export default {
         img:
           "https://i.ibb.co/ySRZML9/1074-A2-B4-B953-401-E-B9-E2-9025-B5-BB6474.jpg",
         name: "Maria Simpson",
-        role: "Senior Architect",
-      },
-    ],
-  },
+        role: "Senior Architect"
+      }
+    ]
+  }
   }
 };
 </script>
