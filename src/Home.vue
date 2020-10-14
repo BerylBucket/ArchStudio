@@ -29,7 +29,7 @@
       </template>
     </Sect>
     <section id="featured">
-      <h3>Featured</h3>
+      <h2>Featured</h2>
       <div id="featImgs">
         <FeatImg
           img="https://i.ibb.co/HKTjKck/FA26-FC69-1523-4-E38-97-EA-47-C218-EE375-B.jpg"
