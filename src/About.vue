@@ -38,36 +38,35 @@ professionals</template>
   import Foot from "./components/Foot";
   
   export default {
+    components {
+      Navbar, Intro, Sect, LeadCard, Foot
+    },
     data() {
-    return {
-    leaders: [
-      {
-        img:
-          "https://i.ibb.co/7nGGvxw/CD46-C2-C3-BC39-4097-A03-F-753-CFB6-DA2-C5.jpg",
-        name: "Jake Richards",
-        role: "Chief Architect"
-      },
-      {
-        img:
-          "https://i.ibb.co/jGyGtTW/F456721-D-9088-463-E-8-B14-6-CE13-BC57-C93.jpg",
-        name: "Thompson Smith",
-        role: "Head of Finance"
-      },
-      {
-        img:
-          "https://i.ibb.co/0ySBPzd/0-A7-D5-C5-B-05-C3-44-BE-A36-A-B67158-BBE29-C.jpg",
-        name: "Jackson Rourke",
-        role: "Lead Designer"
-      },
-      {
-        img:
-          "https://i.ibb.co/ySRZML9/1074-A2-B4-B953-401-E-B9-E2-9025-B5-BB6474.jpg",
-        name: "Maria Simpson",
-        role: "Senior Architect"
-      }
-    ]
-  }
-}
+      return {
+        leaders: [
+          {
+            img: "https://i.ibb.co/7nGGvxw/CD46-C2-C3-BC39-4097-A03-F-753-CFB6-DA2-C5.jpg",
+            name: "Jake Richards",
+            role: "Chief Architect"
+          },
+          {
+            img: "https://i.ibb.co/jGyGtTW/F456721-D-9088-463-E-8-B14-6-CE13-BC57-C93.jpg",
+            name: "Thompson Smith",
+            role: "Head of Finance"
+          },
+          {
+            img: "https://i.ibb.co/0ySBPzd/0-A7-D5-C5-B-05-C3-44-BE-A36-A-B67158-BBE29-C.jpg",
+            name: "Jackson Rourke",
+            role: "Lead Designer"
+          },
+          {
+            img: "https://i.ibb.co/ySRZML9/1074-A2-B4-B953-401-E-B9-E2-9025-B5-BB6474.jpg",
+            name: "Maria Simpson",
+            role: "Senior Architect"
+          }
+         ]
+        }
+     }
   }
 </script>
 
