@@ -15,6 +15,12 @@ module.exports = {
       template: 'public/index.html',
       filename: 'contact.html',
       title: "Contact"
+    },
+    about: {
+      entry: 'src/about.js',
+      template: 'public/index.html',
+      filename: 'about.html',
+      title: "About Us"
     }
   }
 }
