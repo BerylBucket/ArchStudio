@@ -39,13 +39,11 @@ export default {
 }
 
 .intro h2 {
-  font-size: 2.5rem;
   line-height: 3rem;
   letter-spacing: -0.143rem;
   font-weight: 700;
 }
 .intro p {
-  color: #60636d;
   margin-top: 2rem;
 }
 
