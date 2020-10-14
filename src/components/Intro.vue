@@ -1,15 +1,15 @@
 <template>
-<section class="intro">
-  <div class="backImage"></div>
-  <div class="content">
-    <h1><slot name="title"></slot></h1>
-    <ln></ln>
-    <h2><slot name="heading"></slot></h2>
-    <p>
-       <slot name="body"></slot>
-    </p>  
-</div>
-</section>
+  <section class="intro">
+    <div class="backImage"></div>
+    <div class="content">
+      <h1><slot name="title"></slot></h1>
+      <Ln></Ln>
+      <h2><slot name="heading"></slot></h2>
+      <p>
+         <slot name="body"></slot>
+      </p>  
+    </div>
+  </section>
 </template>
 
 <script>
@@ -65,10 +65,10 @@
   height: 400px;
 }
 @media screen and (max-width: 1023px) {
-  .intro {
-margin:0;
+  .intro {    
+    margin:0;
     padding: 0;
-height: auto;
+    height: auto;
   }
   .intro h1 {
     display: none;
