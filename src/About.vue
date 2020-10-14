@@ -1,5 +1,6 @@
 <template>
-  <Navbar active="2"></Navbar>
+  <div>
+    <Navbar active="2"></Navbar>
   <!--<Intro>
     <template v-slot:title>About</template>
     <template v-slot:heading>Your team of
@@ -28,7 +29,8 @@ professionals</template>
       </template>
     </div>
   </section>-->
-  <Foot></Foot>
+    <Foot></Foot>
+  </div>
 </template>
 
 <script>
