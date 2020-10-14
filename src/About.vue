@@ -1,38 +1,40 @@
 <template>
-  <navbar active="1"></navbar>
-  <intro>
+  <Navbar active="1"></Navbar>
+  <Intro>
     <template v-slot:title>About</template>
     <template v-slot:heading>Your team of
 professionals</template>
     <template v-slot:body>Our small team of world-class professionals will work with you every step of the way. Strong relationships are at the core of everything we do. This extends to the relationship our projects have with their surroundings.</template>
-  </intro>
+  </Intro>
   <section id="heritage">
-    <sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/about/heritage.JPG" :showtitle="false">
+    <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/about/heritage.JPG" :showtitle="false">
       <template v-slot:heading>Our Heritage</template>
       <template v-slot:body>
-    <p>Founded in 2007, we started as a trio of architects. Our complimentary skills and relentless attention to detail turned Arch into one of the most sought after boutique firms in the country.</p>
-    <p>Specializing in Urban Design allowed us to focus on creating exceptional structures that live in harmony with their surroundings. We consider every detail from every surrounding element to inform our designs. </p>
-    <p>Our small team of world-class professionals provides input on every project.</p>
+        <p>Founded in 2007, we started as a trio of architects. Our complimentary skills and relentless attention to detail turned Arch into one of the most sought after boutique firms in the country.</p>
+        <p>Specializing in Urban Design allowed us to focus on creating exceptional structures that live in harmony with their surroundings. We consider every detail from every surrounding element to inform our designs. </p>
+        <p>Our small team of world-class professionals provides input on every project.</p>
       </template>
-    </sect>
+    </Sect>
   </section>
   <section id="ourLeaders">
     <h2>The Leaders</h2>
     <div id="leaders">
       <template v-for="x in leaders">
-        <leadimg :img="x.img">
-        <template v-slot:name>{{x.name}}</template>
-    <template v-slot:role>{{x.role}}</template>
-    </leadimg>
+        <LeadCard :img="x.img">
+          <template v-slot:name>{{x.name}}</template>
+          <template v-slot:role>{{x.role}}</template>
+        </LeadCard>
       </template>
     </div>
   </section>
-  <foot></foot>
+  <Foot></Foot>
 </template>
 
 <script>
   import Navbar from "./components/Navbar";
+  import Intro from "./components/Intro";
   import Sect from "./components/Sect";
+  import LeadCard from "./components/LeadCard";
   import Foot from "./components/Foot";
   
   export default {
