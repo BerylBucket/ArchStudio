@@ -30,7 +30,7 @@ export default {
 .footer {
   background: linear-gradient(to left, transparent 100px, #eee 100px);
   height: 120px;
-  color: #60636D;
+  color: #60636d;
   position: relative;
   margin-top: 80px;
 }
@@ -39,7 +39,7 @@ export default {
   font-weight: 900;
   font-size: 36px;
   letter-spacing: -0.15em;
-  background: #1B1D23;
+  background: #1b1d23;
   color: #f7f7f7;
   width: 120px;
   height: 120px;
@@ -58,7 +58,7 @@ export default {
   position: absolute;
   right: 0;
   bottom: calc(50% - 26px);
-  background: #1B1D23;
+  background: #1b1d23;
   color: #f7f7f7;
   padding: 16px;
 }
@@ -76,7 +76,7 @@ export default {
     background: #eee;
     float: none;
     display: block;
-    color: #60636D;
+    color: #60636d;
     width: 100%;
   }
   .footer .btn {
