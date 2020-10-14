@@ -50,12 +50,6 @@ export default {
 </script>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Spartan, sans-serif;
-}
 .sect {
   padding: 2rem;
   display: grid;
@@ -83,11 +77,7 @@ export default {
   font-size: 160px;
   color: #eeeff4;
 }
-.sect h2 {
-  font-size: 2.5rem;
-}
 .sect p {
-  color: #60636d;
   margin-top: 2rem;
 }
 .sect .body {
