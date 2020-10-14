@@ -63,5 +63,6 @@ export default {
   width: 218px;
   position: absolute;
   bottom: 3rem;
+  color: #f5f5f5;
 }
 </style>
