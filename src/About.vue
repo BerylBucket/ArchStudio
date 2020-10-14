@@ -8,6 +8,7 @@ professionals</template>
   </Intro>
   <section id="heritage">
     <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/about/heritage.JPG" :showtitle="false">
+      <template v-slot:title></template>
       <template v-slot:heading>Our Heritage</template>
       <template v-slot:body>
         <p>Founded in 2007, we started as a trio of architects. Our complimentary skills and relentless attention to detail turned Arch into one of the most sought after boutique firms in the country.</p>
