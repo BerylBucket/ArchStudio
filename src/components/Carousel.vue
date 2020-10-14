@@ -45,7 +45,7 @@ export default {
   padding: 3rem 2rem;
   position: relative;
 }
-.carousel h2{
+.carousel h2 {
   color: #f5f5f5;
 }
 .carousel p {
