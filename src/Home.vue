@@ -2,7 +2,7 @@
   <div>
     <Navbar></Navbar>
     <Carousel></Carousel>
-    <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/welcome.JPG">
+    <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/welcome.JPG" :showtitle="true">
       <template v-slot:title>
          Welcome
       </template>
