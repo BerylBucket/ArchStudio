@@ -38,7 +38,7 @@ professionals</template>
   import Foot from "./components/Foot";
   
   export default {
-    components {
+    components: {
       Navbar, Intro, Sect, LeadCard, Foot
     },
     data() {
