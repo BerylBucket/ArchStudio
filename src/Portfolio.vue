@@ -1,4 +1,5 @@
 <template>
+  <div>
   <Navbar active="1"></Navbar>
   <section id="photos">
     <template v-for="ima in imgs">
@@ -9,6 +10,7 @@
     </template>
   </section>
   <Foot></Foot>
+  </div>
 </template>
 
 <script>
