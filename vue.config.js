@@ -10,17 +10,23 @@ module.exports = {
       filename: 'index.html',
       title: "Home"
     },
-    contact: {
-      entry: 'src/contact.js',
+    portfolio: {
+      entry: 'src/portfolio.js',
       template: 'public/index.html',
-      filename: 'contact.html',
-      title: "Contact"
+      filename: 'portfolio.html',
+      title: "Portfolio"
     },
     about: {
       entry: 'src/about.js',
       template: 'public/index.html',
       filename: 'about.html',
       title: "About Us"
+    },
+    contact: {
+      entry: 'src/contact.js',
+      template: 'public/index.html',
+      filename: 'contact.html',
+      title: "Contact"
     }
   }
 }
