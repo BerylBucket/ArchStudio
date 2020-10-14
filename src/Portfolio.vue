@@ -21,44 +21,44 @@
       Navbar, PortImg, Foot
     },
     data() {
-    return {
-      imgs: [
-        {
-          url: "https://i.ibb.co/LRtYVzF/8-A075-C0-D-1-DD1-436-F-82-F0-F021-DC523-ED0.jpg",
-          name: "Seraph Station",
-          date: "September 2019",
-          id: "img1"
-        },
-        {
-          url: "https://i.ibb.co/djskMdZ/pexels-scott-webb-532561.jpg",
-          name: "Eebox Building",
-          date: "August 2017",
-          id: "img2"
-        },
-        {
-          url: "https://i.ibb.co/PmY2DR1/23-B2-D372-9288-4-AC5-B22-E-592-CBFD1-C57-F.jpg",
-          name: "Federal II Tower",
-          date: "March 2017",
-          id: "img3"
-        },
-        {
-          url: "https://i.ibb.co/HKTjKck/FA26-FC69-1523-4-E38-97-EA-47-C218-EE375-B.jpg",
-          name: "Project Del Sol",
-          date: "January 2016",
-          id: "img4"
-        },
-        {
-          url: "https://i.ibb.co/T08S8tp/49-D8-D034-211-C-4-DE4-AD62-FCB6-D596-CE0-E.jpg",
-          name: "Le Prototype",
-          date: "October 2015",
-          id: "img5"
-        },
-        {
-          url: "https://i.ibb.co/7gT2J5b/D4-A03-BE9-175-E-47-BF-89-E2-6-F80-A9-A26407.jpg",
-          name: "228B Tower",
-          date: "April 2019",
-          id: "img6"
-        },
+      return {
+        imgs: [
+          {
+            url: "https://i.ibb.co/LRtYVzF/8-A075-C0-D-1-DD1-436-F-82-F0-F021-DC523-ED0.jpg",
+            name: "Seraph Station",
+            date: "September 2019",
+            id: "img1"
+          },
+          {
+            url: "https://i.ibb.co/djskMdZ/pexels-scott-webb-532561.jpg",
+            name: "Eebox Building",
+            date: "August 2017",
+            id: "img2"
+          },
+          {
+            url: "https://i.ibb.co/PmY2DR1/23-B2-D372-9288-4-AC5-B22-E-592-CBFD1-C57-F.jpg",
+            name: "Federal II Tower",
+            date: "March 2017",
+            id: "img3"
+          },
+          {
+            url: "https://i.ibb.co/HKTjKck/FA26-FC69-1523-4-E38-97-EA-47-C218-EE375-B.jpg",
+            name: "Project Del Sol",
+            date: "January 2016",
+            id: "img4"
+          },
+          {
+            url: "https://i.ibb.co/T08S8tp/49-D8-D034-211-C-4-DE4-AD62-FCB6-D596-CE0-E.jpg",
+            name: "Le Prototype",
+            date: "October 2015",
+            id: "img5"
+          },
+          {
+            url: "https://i.ibb.co/7gT2J5b/D4-A03-BE9-175-E-47-BF-89-E2-6-F80-A9-A26407.jpg",
+            name: "228B Tower",
+            date: "April 2019",
+            id: "img6"
+          },
         {
           url: "https://i.ibb.co/C7nBNmB/pexels-ingo-joseph-1694650.jpg",
           name: "Grand Eliskal Hotel",
@@ -89,15 +89,15 @@
           date: "September 2015",
           id: "img11"
         },
-        {
-          url:      "https://i.ibb.co/d79njHJ/14-AEE1-A9-6469-42-D3-A4-E2-6-C09-BDF6506-E.jpg",
-          name: "Project Paramour",
-          date: "July 2020",
-          id: "img12"
-        }
-      ]
-    };
-  }
+          {
+            url: "https://i.ibb.co/d79njHJ/14-AEE1-A9-6469-42-D3-A4-E2-6-C09-BDF6506-E.jpg",
+            name: "Project Paramour",
+            date: "July 2020",
+            id: "img12"
+          }
+        ]
+      }
+    }
   }
 </script>
 
