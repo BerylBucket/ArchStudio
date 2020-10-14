@@ -48,7 +48,7 @@ export default {
 .carousel p {
   margin-top: 10px;
   font-size: 18px;
-  color: #999;
+  color: #f5f5f5;
 }
 .carousel a svg {
   margin-left: 12px;
