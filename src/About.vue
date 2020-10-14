@@ -1,11 +1,11 @@
 <template>
   <Navbar active="2"></Navbar>
-  <Intro>
+  <!--<Intro>
     <template v-slot:title>About</template>
     <template v-slot:heading>Your team of
 professionals</template>
     <template v-slot:body>Our small team of world-class professionals will work with you every step of the way. Strong relationships are at the core of everything we do. This extends to the relationship our projects have with their surroundings.</template>
-  </Intro>
+  </Intro>-->
   <section id="heritage">
     <Sect img="https://raw.githubusercontent.com/BerylBucket/ArchStudio/dev/src/assets/about/heritage.JPG" :showtitle="false">
       <template v-slot:title></template>
