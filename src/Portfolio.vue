@@ -2,7 +2,7 @@
   <Navbar active="1"></Navbar>
   <section id="photos">
     <template v-for="ima in imgs">
-      <PortImg :imgurl="ima.url" :key="ima.id">
+      <PortImg :img="ima.url" :key="ima.id">
         <template v-slot:name>{{ima.name}}</template>
         <template v-slot:date>{{ima.date}}</template>
       </PortImg>
